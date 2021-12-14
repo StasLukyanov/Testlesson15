@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         checkBox9 = findViewById(R.id.checkBox9)
         checkBox10 = findViewById(R.id.checkBox10)
     }
-
+  //треш комит
     fun onSelectStudentClick(view: View?) {
         if (!mapGroup.values.toList().filter { it.present }.isEmpty()) {
             val ran = mapGroup.values.toList().filter { it.present }.random()
